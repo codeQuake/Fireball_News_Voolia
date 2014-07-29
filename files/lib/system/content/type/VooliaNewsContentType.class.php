@@ -1,10 +1,10 @@
 <?php
 namespace cms\system\content\type;
 
+use cms\data\content\Content;
 use news\data\category\NewsCategory;
 use news\data\category\NewsCategoryNodeTree;
 use news\data\news\NewsCategoryList;
-use cms\data\content\Content;
 use wcf\system\exception\UserInputException;
 use wcf\system\WCF;
 
@@ -15,7 +15,7 @@ use wcf\system\WCF;
  * @package de.codequake.cms
  * @license GNU Lesser General Public License <http://www.gnu.org/licenses/lgpl-3.0.txt>
  */
-class NewsContentType extends AbstractContentType {
+class VooliaNewsContentType extends AbstractContentType {
 
 	protected $icon = 'icon-archive';
 

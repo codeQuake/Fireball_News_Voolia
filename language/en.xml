@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd"
 	languagecode="en">
 	<category name="cms.acp.content">
-		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news"><![CDATA[News]]></item>
+		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news"><![CDATA[News (voolia)]]></item>
 		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.limit"><![CDATA[Amount of News]]></item>
 		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type"><![CDATA[Pattern]]></item>
 		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.standard"><![CDATA[Standart]]></item>
