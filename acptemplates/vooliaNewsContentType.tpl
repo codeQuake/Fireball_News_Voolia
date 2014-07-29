@@ -35,19 +35,19 @@
 
 
 <dl>
-	<dt><label for="contentData[type]">{lang}cms.acp.content.type.de.codequake.cms.content.type.news.type{/lang}</label></dt>
+	<dt><label for="contentData[type]">{lang}cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type{/lang}</label></dt>
 	<dd>
 		<select name="contentData[type]" id="contentData[type]">
-			<option value="standard" {if $contentData['type']|isset && $contentData['type'] == 'standard'}selected="selected"{/if}>{lang}cms.acp.content.type.de.codequake.cms.content.type.news.type.standard{/lang}</option>
-			<option value="boxed" {if $contentData['type']|isset && $contentData['type'] == 'boxed'}selected="selected"{/if}>{lang}cms.acp.content.type.de.codequake.cms.content.type.news.type.boxed{/lang}</option>
-			<option value="simple1" {if $contentData['type']|isset && $contentData['type'] == 'simple1'}selected="selected"{/if}>{lang}cms.acp.content.type.de.codequake.cms.content.type.news.type.simple1{/lang}</option>
-			<option value="simple2" {if $contentData['type']|isset && $contentData['type'] == 'simple2'}selected="selected"{/if}>{lang}cms.acp.content.type.de.codequake.cms.content.type.news.type.simple2{/lang}</option>
+			<option value="standard" {if $contentData['type']|isset && $contentData['type'] == 'standard'}selected="selected"{/if}>{lang}cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.standard{/lang}</option>
+			<option value="boxed" {if $contentData['type']|isset && $contentData['type'] == 'boxed'}selected="selected"{/if}>{lang}cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.boxed{/lang}</option>
+			<option value="simple1" {if $contentData['type']|isset && $contentData['type'] == 'simple1'}selected="selected"{/if}>{lang}cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.simple1{/lang}</option>
+			<option value="simple2" {if $contentData['type']|isset && $contentData['type'] == 'simple2'}selected="selected"{/if}>{lang}cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.simple2{/lang}</option>
 		<select>
 	</dd>
 </dl>
 
 <dl>
-	<dt><label for="contentData[limit]">{lang}cms.acp.content.type.de.codequake.cms.content.type.news.limit{/lang}</label></dt>
+	<dt><label for="contentData[limit]">{lang}cms.acp.content.type.de.codequake.cms.content.type.voolia.news.limit{/lang}</label></dt>
 	<dd>
 		<input type="number" name="contentData[limit]" id="contentData[limit]" value="{if $contentData['limit']|isset}{$contentData['limit']}{else}0{/if}" />
 	</dd>
