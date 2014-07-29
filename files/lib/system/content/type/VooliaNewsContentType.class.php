@@ -29,7 +29,7 @@ class NewsContentType extends AbstractContentType {
 		$excludedCategoryIDs = array_diff(NewsCategory::getAccessibleCategoryIDs(), NewsCategory::getAccessibleCategoryIDs(array(
 			'canAddNews'
 		)));
-		$categoryTree = new NewsCategoryNodeTree('de.codequake.cms.category.news', 0, false, $excludedCategoryIDs);
+		$categoryTree = new NewsCategoryNodeTree('de.voolia.news.category', 0, false, $excludedCategoryIDs);
 		$categoryList = $categoryTree->getIterator();
 		$categoryList->setMaxDepth(0);
 		WCF::getTPL()->assign('categoryList', $categoryList);
