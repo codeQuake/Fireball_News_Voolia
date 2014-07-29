@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd"
+	languagecode="en">
+	<category name="cms.acp.content">
+		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news"><![CDATA[News]]></item>
+		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.limit"><![CDATA[Amount of News]]></item>
+		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type"><![CDATA[Pattern]]></item>
+		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.standard"><![CDATA[Standart]]></item>
+		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.boxed"><![CDATA[Without borders]]></item>
+		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.simple1"><![CDATA[Simple without image]]></item>
+		<item name="cms.acp.content.type.de.codequake.cms.content.type.voolia.news.type.simple2"><![CDATA[Simple without teaser]]></item>
+	</category>
+</language>
