@@ -25,6 +25,7 @@
 		<!-- tar -->
 		<instruction type="file" application="cms">files.tar</instruction>
 		<instruction type="acpTemplate" application="cms">acptemplates.tar</instruction>
+		<instruction type="template" application="cms">templates.tar</instruction>
 
 		<!-- lang -->
 		<instruction type="language">language/*.xml</instruction>
