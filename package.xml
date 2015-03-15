@@ -6,7 +6,7 @@
 		<packagename>Fireball CMS - voolia News Integration</packagename>
 		<packagedescription>Das voolia News System wird mit diesem Paket in das Fireball CMS eingebunden</packagedescription>
 		<plugin>de.codequake.cms</plugin>
-		<version>1.0.0 Beta 3</version>
+		<version>1.0.0 Beta 4</version>
 		<date>2015-03-15</date>
 	</packageinformation>
 
@@ -39,6 +39,10 @@
 	</instructions>
 
 	<instructions type="update" fromversion="1.0.0 Beta 2">
+		<instruction type="file" application="cms">files.tar</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.0 Beta 3">
 		<instruction type="file" application="cms">files.tar</instruction>
 	</instructions>
 
