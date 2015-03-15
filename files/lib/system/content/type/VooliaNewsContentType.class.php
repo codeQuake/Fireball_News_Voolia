@@ -38,7 +38,7 @@ class VooliaNewsContentType extends AbstractContentType {
 
 	public function getOutput(Content $content) {
 		$type = $content-type != '' ? $content-type : 'standard';
-		$list = new NewsCategoryList($data['categoryIDs']);
+		$list = new NewsCategoryList($content->categoryIDs);
 		$list->sqlLimit = $content->limit;
 		$list->readObjects();
 		$list = $list->getObjects();
