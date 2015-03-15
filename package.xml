@@ -6,8 +6,8 @@
 		<packagename>Fireball CMS - voolia News Integration</packagename>
 		<packagedescription>Das voolia News System wird mit diesem Paket in das Fireball CMS eingebunden</packagedescription>
 		<plugin>de.codequake.cms</plugin>
-		<version>1.0.0 Beta 2</version>
-		<date>2014-07-29</date>
+		<version>1.0.0 Beta 3</version>
+		<date>2015-03-15</date>
 	</packageinformation>
 
 	<authorinformation>
@@ -17,7 +17,7 @@
 
 	<requiredpackages>
 		<requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="2.0.0 Beta 1">de.codequake.cms</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 8">de.codequake.cms</requiredpackage>
 		<requiredpackage minversion="1.0.5">de.voolia.news</requiredpackage>
 	</requiredpackages>
 
@@ -34,7 +34,12 @@
 		<instruction type="objectType">xml/objectType.xml</instruction>
 	</instructions>
 	<instructions type="update" fromversion="1.0.0 Beta 1">
+		<instruction type="file" application="cms">files.tar</instruction>
 		<instruction type="acpTemplate" application="cms">acptemplates.tar</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.0 Beta 2">
+		<instruction type="file" application="cms">files.tar</instruction>
 	</instructions>
 
 </package>

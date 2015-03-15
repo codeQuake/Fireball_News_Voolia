@@ -37,10 +37,9 @@ class VooliaNewsContentType extends AbstractContentType {
 	}
 
 	public function getOutput(Content $content) {
-		$data = $content->handleContentData();
-		$type = isset($data['type']) ? $data['type'] : 'standard';
+		$type = $content-type != '' ? $content-type : 'standard';
 		$list = new NewsCategoryList($data['categoryIDs']);
-		$list->sqlLimit = $data['limit'];
+		$list->sqlLimit = $content->limit;
 		$list->readObjects();
 		$list = $list->getObjects();
 		WCF::getTPL()->assign(array(
