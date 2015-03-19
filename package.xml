@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="de.codequake.cms.news.voolia" xmlns="http://www.woltlab.com"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+<package name="de.codequake.cms.news.voolia" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
 		<packagename>Fireball CMS - voolia News Integration</packagename>
 		<packagedescription>Das voolia News System wird mit diesem Paket in das Fireball CMS eingebunden</packagedescription>
@@ -21,6 +19,11 @@
 		<requiredpackage minversion="1.0.5">de.voolia.news</requiredpackage>
 	</requiredpackages>
 
+	<excludedpackages>
+		<excludedpackage version="2.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="2.1.0 Alpha 1">de.codequake.cms</excludedpackage>
+	</excludedpackages>
+
 	<instructions type="install">
 		<!-- tar -->
 		<instruction type="file" application="cms">files.tar</instruction>
@@ -33,6 +36,7 @@
 		<!-- xml -->
 		<instruction type="objectType">xml/objectType.xml</instruction>
 	</instructions>
+
 	<instructions type="update" fromversion="1.0.0 Beta 1">
 		<instruction type="file" application="cms">files.tar</instruction>
 		<instruction type="acpTemplate" application="cms">acptemplates.tar</instruction>
@@ -45,5 +49,4 @@
 	<instructions type="update" fromversion="1.0.0 Beta 3">
 		<instruction type="file" application="cms">files.tar</instruction>
 	</instructions>
-
 </package>
